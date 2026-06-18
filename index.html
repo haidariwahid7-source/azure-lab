@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<title>Meine Azure Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wahid Haidari - Azure Portfolio</title>
+<style>
+body{
+   margin:0;
+   font-family:Segoe UI,sans-serif;
+   background:#f4f6f9;
+}
+header{
+   background:#0078D4;
+   color:white;
+   text-align:center;
+   padding:60px;
+}
+section{
+   padding:40px;
+   max-width:1000px;
+   margin:auto;
+}
+.card{
+   background:white;
+   padding:20px;
+   margin:15px;
+   border-radius:10px;
+   box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+.projects{
+   display:grid;
+   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+   gap:20px;
+}
+footer{
+   background:#0078D4;
+   color:white;
+   text-align:center;
+   padding:20px;
+   margin-top:40px;
+}
+</style>
 </head>
 <body>
-<h1>Hallo Azure!</h1>
-<p>Diese Website wurde von Wahid erstellt.</p>
+<header>
+<h1>Wahid Haidari</h1>
+<p>Fachinformatiker Systemintegration</p>
+<p>MD-102 Certified | AZ-104 Vorbereitung</p>
+</header>
+<section>
+<h2>Über mich</h2>
+<div class="card">
+Ich lerne Azure Cloud Administration und baue praktische Labs mit Azure, GitHub und Windows Server.
+</div>
+<h2>Meine Azure Projekte</h2>
+<div class="projects">
+<div class="card">
+<h3>Azure Static Web App</h3>
+<p>Website mit GitHub und Azure veröffentlicht.</p>
+</div>
+<div class="card">
+<h3>Virtual Network</h3>
+<p>Virtuelle Netzwerke und Subnetze erstellt.</p>
+</div>
+<div class="card">
+<h3>Storage Account</h3>
+<p>Azure Storage Ressourcen eingerichtet.</p>
+</div>
+<div class="card">
+<h3>Network Watcher</h3>
+<p>Netzwerküberwachung in Azure aktiviert.</p>
+</div>
+</div>
+</section>
+<footer>
+© 2026 Wahid Haidari
+</footer>
 </body>
-</html>
- 
+</html
